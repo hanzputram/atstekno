@@ -13,3 +13,7 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+@utility container {
+    @apply mx-auto max-w-[90%] sm:max-w-[565px] md:max-w-[693px] lg:max-w-[949px] xl:max-w-[1205px] 2xl:max-w-[1205px];
+}

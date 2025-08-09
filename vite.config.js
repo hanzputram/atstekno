@@ -10,4 +10,11 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+     server: {
+        host: '192.168.0.118', // 👈 Your IPv4 here
+        port: 5173,
+        hmr: {
+            host: '192.168.0.118', // 👈 Same IPv4 here
+        }
+    }
 });
